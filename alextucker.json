@@ -1,0 +1,101 @@
+var resume = {
+	
+	bio : {
+		name : "Alex Tucker",
+		email : "tucker.al@gmail.com",
+		github : "alextucker",
+		twitter : "AutomaticPixel"
+	},
+	
+	skills : [
+		PHP : {
+			rating : 0.9,
+			tools : [
+				"Kohana", "PHPUnit", "Symfony2"
+			],
+			contributions : [
+				"https://github.com/alextucker/classloader",
+				"https://github.com/TorontoPHPSoftwareCraftsmanship/PHPUnit-Koans",
+				"https://github.com/PinpointSocial/postageapp",
+				"https://github.com/PinpointSocial/mailchimp"
+			]
+		},
+		JavaScript : {
+			rating: 0.75,
+			tools : [
+				"Backbone.js", "jQuery", "Jasmine"
+			],
+			contributions : [
+				"https://github.com/alextucker/jquery-GoogleMapV3"
+			]
+		},
+		Java : {
+			rating : 0.5,
+			tools : [
+				"JUnit", "Maven"
+			],
+			contributions : [
+				"https://github.com/alextucker/JPrimer"
+			]
+		}
+	],
+	
+	experience : [
+		{ company : "Pinpoint Social",
+			website : "www.pinpointsocial.com",
+			role : "Lead Software Engineer",
+			when : "July 2011 to Present",
+			technologies : [
+				"PHP","Kohana","jQuery","Backbone.js","MongoDB", "PHPUnit"
+			],
+			accomplishments : [
+				"Took pride in writing testable, maintainable code through TDD",
+				"Implemented third party integrations with Facebook, MailChimp and PostageApp",
+				"Deployment automation and general DevOps",
+				"Made contributions to product development and improving user experiance",
+				"Designed and implemented the entire platform to first release to paying customers in 3 months"			 
+			]
+		},
+		{ company : "CIBC",
+			role : "Junior Java Developer",
+			when : "Summer 2008, Summer 2009, Summer 2010",
+			technologies : [
+				"Java", "WebSphere", "Oracle", "Maven"
+			],
+			accomplishments : [
+				"Maintained and enhanced existing enterprise web applications",
+				"Designed and implemented a build system",
+				"Investigated and troubleshot production issues"
+			]
+		},
+		{ company : "FeedBlitz",
+			role : "Lead Support Technician",
+			when : "September 2006 to October 2007",
+			accomplishments : [
+				"Provided support for application implementation and configuration to clients in a timely manner",
+				"Reported and tracked bugs",
+				"Wrote and maintained documenation"
+			]
+		},
+		{ company : "Canadian Army",
+			role : "Armoured Recconissance Solider - Corporal",
+			when : "February 2004 to November 2006",
+			accomplishments : [
+				"Deployed and maintained weaopon systems and surviellance equipment",
+				"Operated and maintained military vehicles",
+				"Adhered to a string code of conduct and met deadlines in a high stress environment"		
+			]
+		}		
+	],
+
+	notable : [
+		"Founder and Organizer of the PHP Software Craftsmanship Meetup http://www.meetup.com/PHP-Software-Craftsmanship/",
+		"Vim Nerd, Linux User"
+	],
+		
+	interests : [
+		"http://bit.ly/I54f0F",
+		"http://bit.ly/HZ7IlH",
+		"http://bit.ly/eEZydj"
+	]
+}
